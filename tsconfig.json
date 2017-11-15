@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {        
+        "target":"ES5", 
+        "outFile":"challenge.js",
+        "module":"AMD"
+    },
+    "files": [     
+        "head.ts",
+        "server.ts",
+		"main.ts"
+    ]
+}

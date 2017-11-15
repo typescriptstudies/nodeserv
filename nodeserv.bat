@@ -1,0 +1,2 @@
+node challenge.js
+pause

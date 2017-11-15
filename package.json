@@ -1,0 +1,32 @@
+{
+  "name": "nodeserv",
+  "version": "1.0.4",
+  "description": "Node engine server",
+  "main": "challenge.js",
+  "bin": {
+    "nodeserv": "challenge.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typescriptstudies/nodeserv.git"
+  },
+  "keywords": [
+    "chess",
+    "engine",
+    "server"
+  ],
+  "author": "Typscript Studies",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/typescriptstudies/nodeserv/issues"
+  },
+  "homepage": "https://github.com/typescriptstudies/nodeserv#readme",
+  "dependencies": {	
+    "express": "^4.16.2",
+    "formidable": "^1.1.1",    
+    "ws": "^3.3.1"
+  }
+}
